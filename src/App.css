@@ -270,6 +270,24 @@ main {
   background: linear-gradient(269deg, #0048ff, #0096ff);
 }
 /* Cards Section */
+@media screen and (max-width: 900px) {
+  .blog-card-container {
+    width: 33.33%;
+    box-sizing: unset;
+    max-width: 20em;
+    max-height: 29em;
+    min-height: 25em;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
 .blog-card-section {
   display: flex;
   flex-direction: row;
@@ -279,7 +297,7 @@ main {
   justify-content: left;
 }
 .blog-card-container {
-  width: 33.33%;
+  width: 100%;
   box-sizing: unset;
   max-width: 20em;
   max-height: 29em;
